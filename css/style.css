@@ -73,6 +73,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 section::before{
@@ -105,6 +106,7 @@ section img#mountains_front{
 
 #text{
     position: absolute;
+    right: -350px;
     color: var(--white);
     white-space: nowrap;
     font-size: 7.5vw;
